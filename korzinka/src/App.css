@@ -1,0 +1,243 @@
+.App-korzinka{
+  background: #fafafa;
+  padding: 15px 25px;
+  }
+  
+  .where-korzinka{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  .where-korzinka a{
+  color: #06c160;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  .where-korzinka span{
+  margin-top: 3px;
+  }
+  .where-korzinka a:hover{
+  text-decoration: none;
+  }
+  
+  
+  .first-korzinka-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .small-first-korzinka-div p{
+  color: #909090;
+  font-size: 12px;
+  line-height: 0px;
+  }
+  
+  .small-first-korzinka-div h3{
+  font-size: 20px;
+  }
+  
+  
+  .trash-delete-korzinka{
+  color: #909090;
+  font-size: 20px;
+  }
+  .trash-delete-korzinka:hover{
+  color: #06c160;
+  cursor: pointer;
+  }
+  
+  .korzinka-big-and-about-div hr{
+  border: none;
+  height: 1px;
+  background: #9090909d;
+  }
+  
+  
+  .korzinka-big-and-about-div{
+  background: #fff;
+  padding: 15px 20px 30px 20px;
+  width: 800px;
+  border-radius: 15px;
+  margin-top: 50px;
+  }
+  
+  @media (max-width:850px) {
+      .korzinka-big-and-about-div{
+          background: #fff;
+          padding: 15px 20px 30px 20px;
+          width: 600px;
+          border-radius: 15px;
+          margin-top: 50px;
+          }
+          
+  }
+  
+  @media (max-width: 670px) {
+      .korzinka-big-and-about-div{
+          background: #fff;
+          padding: 15px 20px 30px 20px;
+          width: 88%;
+          margin: auto;
+          border-radius: 15px;
+          margin-top: 50px;
+          }
+          
+  }
+  
+  .second-korzinka-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .img-name-price-korzinka{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
+  
+  .korzinka-img{
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+  
+  .korzinka-img img{
+  width: 100%;
+  }
+  
+  .name-price-korzinka h3{
+  font-size: 22px;
+  line-height: 5px;
+  }
+  .name-price-korzinka p{
+  color: #909090;
+  font-size: 18px;
+  }
+  
+  .overall-price-plus-minus-korzinka{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  }
+  
+  .overall-price-plus-minus-korzinka h3{
+  font-size: 22px;
+  }
+  
+  .minus-korzinka{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #06c160;
+  
+  border: 1px solid #06c160;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .minus-korzinka h3{
+  font-size: 30px;
+  cursor: pointer;
+  }
+  .plus-korzinka{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #06c160;
+  border: 1px solid #06c160;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .plus-korzinka h3{
+  font-size: 30px;
+  cursor: pointer;
+  }
+  
+  .overall-price-plus-minus-korzinka .bx-trash{
+  color: #909090;
+  font-size: 20px;
+  }
+  .overall-price-plus-minus-korzinka .bx-trash:hover{
+  color: #06c160;
+  cursor: pointer;
+  }
+  
+  .korzinka-bottom{
+  margin-bottom: 20px;
+  }
+  
+  .korzinka-top{
+  margin-top: 20px;
+  }
+  
+  .price-over-korzinka{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 60px;
+  }
+  
+  .price-over-korzinka button{
+      width: 150px;
+      height: 40px;   
+      border: none;
+      background: #06c160;
+      color: white;
+      border-radius: 10px;
+  }
+  
+  .after-media-six-hundred{
+      display: none;
+  }
+  
+  @media (max-width:600px) {
+  .img-name-price-korzinka, .overall-price-plus-minus-korzinka{
+      display: none;
+  }
+     .after-media-six-hundred{
+      display: block;
+      width: 100%;
+     }
+     .media-img-name-price-korzinka-kotta{
+          display: flex;
+          align-items: center;
+          gap: 10px; 
+     }
+  
+     .media-img-name-price-korzinka-trash i{
+      color: #909090;
+      font-size: 20px;
+      }
+      .media-img-name-price-korzinka-trash i:hover{
+      color: #06c160;
+      cursor: pointer;
+      }
+     .media-img-name-price-korzinka{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     }
+  
+     .media-overall-price-plus-minus-korzinka{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     }
+     .media-overall-price-plus-minus-korzinka-count{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+     }
+  }
+  
+  @media (max-width:410px) {
+  .price-over-korzinka{
+      display: block;
+      text-align: center;
+  }
+  }
