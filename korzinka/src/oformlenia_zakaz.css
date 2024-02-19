@@ -1,0 +1,216 @@
+
+.App-offormlenia-zakaz{
+    background: #fafafa;
+    padding: 15px 25px;
+    }
+.where-Oformlenia-zakaz{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .where-Oformlenia-zakaz a{
+    color: #06c160;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .where-Oformlenia-zakaz span{
+    margin-top: 3px;
+    }
+    .where-Oformlenia-zakaz a:hover{
+    text-decoration: none;
+    }
+
+    .first-oformlenia-zakaz{
+        background: #fff;
+        padding: 20px 25px;
+        border-radius: 10px;
+    }
+
+    .count-offermlenia-zakaz{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #e6f9ef;
+    }
+
+    .count-what-do-oformlenia-zakaz{
+        display: flex;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .gets-person-zakaz{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .gets-person2-zakaz{
+        display: none;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .gets-person2-zakaz input{
+        width: 250px;
+        height: 20px;
+        padding: 10px 15px;
+        border: 1px solid #909090;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background: #fff;
+        border-radius: 10px;
+    }
+
+
+
+    .gets-person-zakaz p{
+        width: 250px;
+        height: 30px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background: #efefef;
+        border-radius: 10px;
+    }
+
+    .get-another-person-zakaz{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #checkbox-zakaz{
+        width: 20px;
+        height: 20px;
+        accent-color: #06c160;
+    }
+
+
+
+
+    .radio-inp-text-zakaz{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        line-height: 0;
+    }
+    #radio-zakaz{
+        accent-color: #06c160;
+        width: 20px;
+        height: 20px;
+    }
+
+    .inp-checkbox-and-text-zakaz p{
+        color: #909090;
+        display: none;
+    }
+
+.big-dostavka-zakaz{
+    display: none;
+}
+
+    .small-div-dostavka p{
+        width: 250px;
+        height: 30px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background: #efefef;
+        border-radius: 10px;
+    }
+
+.small-div-dostavka{
+    display: flex;
+    align-items: center;gap: 30px;
+}
+
+.small-div-dostavka input{
+    width: 250px;
+    height: 25px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.middle-dostavka-div{
+    display: flex;
+    align-items: center;gap: 30px;
+}
+.another-info-zakaz input{
+    width: 100px;
+    height: 25px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    border-radius: 10px; 
+}
+
+.another-info-zakaz{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hr-for-dostavka-or-zakaz{
+    border: none;
+    height: 1px;
+    background: #909090a4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inp-time-data-dostavka input{
+    width: 250px;
+    height: 28px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.inp-time-data-dostavka select{
+    width: 250px;
+    height: 50px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+
+.inp-time-data-dostavka {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.comment-for-zakaz textarea{
+    width: 800px;
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    border-radius: 10px;
+}
